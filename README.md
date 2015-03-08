@@ -16,7 +16,7 @@ Install Dependancy
 
 Api to write
 
-1. Add company
-2. List Company
+1. Add company -
+2. List Company - Done
 3. Update Company
 4. Delete Company
