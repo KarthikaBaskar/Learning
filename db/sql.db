@@ -1,0 +1,38 @@
+-- phpMyAdmin SQL Dump
+-- version 4.2.11
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Mar 08, 2015 at 04:48 PM
+-- Server version: 5.6.21
+-- PHP Version: 5.6.3
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `80startups`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `company`
+--
+
+CREATE TABLE IF NOT EXISTS `company` (
+  `id` int(10) unsigned NOT NULL,
+  `companyname` varchar(200) DEFAULT NULL,
+  `location` varchar(200) DEFAULT NULL,
+  `founder` int(11) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `company`
+--
+ALTER TABLE `company`
+ ADD PRIMARY KEY (`id`);
